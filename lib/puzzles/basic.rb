@@ -17,7 +17,7 @@ module Puzzles
     # @return [Integer] See above.
     def biggest_sum_of_square(*numbers)
       if numbers.is_a?(Array)
-        if number.length > 1
+        if numbers.length > 1
           numbers.sort.last(2).collect {|i| i * i}.inject{|sum,x| sum + x }
         elsif numbers.length == 1
           numbers.first * numbers.first

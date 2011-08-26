@@ -17,7 +17,6 @@ module Puzzles
     # @return [Integer] See above.
     def biggest_sum_of_square(*numbers)
 
-      # TODO: Solve it!
 
     end
 
